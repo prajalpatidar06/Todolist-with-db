@@ -38,11 +38,6 @@ async function DeleteAllTasks(){
     await db.sync({force:true})
 }
 
-// DeleteAllTasks().then(()=>{
-//     console.log("Deleted successfully")
-// })
-
-// console.log(data)
 module.exports = {
     showTasks: ShowTasks,
     createTask: createTask,
